@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Nov 25 14:05:54 2020
+
+@author: enzo
+"""
+import matplotlib.pyplot as plt
+import numpy as np
+import cv2
+print(f"CV2 Version: {cv2.__version__}")
+
+#%% Extract Transform
+def extract_and_transform(good_matches, kp1, kp2, img1, img2): #
+    """
+    If enough matches are found, we extract the locations of matched keypoints in both the images.
+    They are passed to find the perpective transformation. Once we get this 3x3 transformation matrix, 
+    we use it to transform the corners of queryImage to corresponding points in trainImage. 
+    Then we draw it.
+    """
+
+    MIN_MATCHES = 50
+    MIN_MATCH_COUNT = 10 #set a condition that atleast 10 matches (defined by MIN_MATCH_COUNT) are to be there to find the object. 
+    #Otherwise simply show a message saying not enough matches are present.
+
+    if len(good_matches)>MIN_MATCH_COUNT: #MIN_MATCHES
+        # maintaining list of index of descriptors 
+        src_points = np.float32([ kp1[m.queryIdx].pt for m in good_matches ]).reshape(-1,1,2)
+        dst_points = np.float32([ kp2[m.trainIdx].pt for m in good_matches ]).reshape(-1,1,2)
+
+        # finding  perspective transformation 
+        # between two planes 
+        matrix, mask = cv2.findHomography(src_points, dst_points, cv2.RANSAC,5.0)
+        M, mask_reverse = cv2.findHomography(dst_points, src_points, cv2.RANSAC, 5.0)
+        matches_mask = mask.ravel().tolist() # ravel function returns  - contiguous flattened array 
+        print(matrix)
+        
+        
+        h,w = img1.shape[:2]
+        pts = np.float32([ [0,0],[0,h-1],[w-1,h-1],[w-1,0] ]).reshape(-1,1,2)
+        dst = cv2.perspectiveTransform(pts,matrix) # applying perspective algorithm : destination points
+
+        #M = cv2.getPerspectiveTransform(dst,pts)
+        corrected_img = cv2.warpPerspective(img2, M, (img1.shape[1], img1.shape[0]), cv2.WARP_INVERSE_MAP)
+    else:
+        print(f"Not enough matches are found - {len(good_matches)} / {MIN_MATCH_COUNT}")
+        matches_mask = None
+        dst=None
+        corrected_img= None
+    
+    return matches_mask, dst, corrected_img
+
+def draw_inliers(matches_mask, img1,kp1,img2,kp2,good):
+    """
+    draw our inliers (if successfully found the object) or matching keypoints (if failed).
+    """
+    draw_params = dict(matchColor = (0,255,0), # draw matches in green color
+                   singlePointColor = None,
+                   matchesMask = matches_mask, # draw only inliers
+                   flags = 2)
+
+    img3 = cv2.drawMatches(img1,kp1,img2,kp2,good, None,**draw_params)
+
+    plt.imshow(img3, 'gray'),plt.show()
+    return img3
+#%% TEST1
+
+# Import of the query image
+path_query = '../../../data/data/raw/Match/'
+queryImage = cv2.imread(path_query+'bianc_cropped.jpg')
+plt.figure(), plt.imshow(queryImage); plt.show()
+
+# Import of the train image
+path_train = '../../../data/data/raw/foto_tel1/'
+trainImage = cv2.imread(path_train+'IMG_20201118_081801.jpg')
+plt.figure(), plt.imshow(trainImage); plt.show()
+
+
+# Initiate SIFT detector
+sift = cv2.SIFT_create()
+
+# find the keypoints and descriptors with SIFT
+kp1, des1 = sift.detectAndCompute(queryImage,None)
+kp2, des2 = sift.detectAndCompute(trainImage,None)
+
+
+#feature matching
+bf = cv2.BFMatcher(cv2.NORM_L1, crossCheck=True) #brute force NORM_HAMMING
+matches = bf.match(des1, des2)
+
+img3 = cv2.drawMatches(queryImage, kp1, trainImage, kp2, matches[:50], trainImage, flags=2)
+plt.imshow(img3),plt.show()
+
+# store all the good matches as per Lowe's ratio test.
+good_matches = []
+for i, m in enumerate(matches):
+    if i < len(matches) - 1 and m.distance < 0.9 * matches[i+1].distance:
+        good_matches.append(m)
+
+good_matches = matches
+
+matches_mask, dst, corrected_img = extract_and_transform(good_matches, kp1, kp2, queryImage, trainImage)
+
+homography = cv2.polylines(trainImage,[np.int32(dst)], True, (0,0,255), 10, cv2.LINE_AA)
+plt.figure(), plt.imshow(homography) , plt.show()
+
+plt.figure(), plt.imshow(corrected_img), plt.show()
+
+
+test_image = draw_inliers(matches_mask, queryImage, kp1, trainImage, kp2, good_matches)
+
+

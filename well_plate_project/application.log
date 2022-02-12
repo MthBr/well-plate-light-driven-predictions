@@ -1,0 +1,1588 @@
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Attr 'strides' of 'Conv3D' Op passed list of length 4 less than minimum 5.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Shape must be rank 5 but is rank 4 for 'Conv3D' (op: 'Conv3D') with input shapes: [?,20,20,1], [3,3,1,32].
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - atrous_conv2d_transpose() missing 1 required positional argument: 'rate'
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - value's input channels does not match filters' input channels, 1 != 32
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - value's input channels does not match filters' input channels, 1 != 32
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - value's input channels does not match filters' input channels, 1 != 32
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - value's input channels does not match filters' input channels, 1 != 32
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Expected list for 'strides' argument to 'conv2d_backprop_input' Op, not None.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - conv2d_backprop_filter() missing 1 required positional argument: 'strides'
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Too many elements provided. Needed at most 1, but received 32
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Shape must be rank 4 but is rank 1 for 'conv2d_transpose' (op: 'Conv2DBackpropInput') with input shapes: [1], [3,3,1,32], [?,20,20,1].
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Invalid axis: 3
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - stride should be of length 1, 1 or 3 but was 4
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 300, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Shape must be rank 4 but is rank 5 for 'conv1d' (op: 'Conv2D') with input shapes: [?,1,20,20,1], [1,3,3,1,32].
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_ConvE_-prova.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+ERROR - Exception occurred for parameters:{'batches_count': 256, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 724.4517019319227 mrr: 0.54503820686493 hits 1: 0.48114075436982523 hits 3: 0.5814167433302668 hits 10: 0.6642134314627415, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.5601977142772397 mrr: 711.8334866605336 hits 1: 0.49494020239190434 hits 3: 0.5965961361545539 hits 10: 0.6757129714811407, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_ConvE_-prova.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 1461.4187455452602 mrr: 0.5421046068573626 hits 1: 0.4722024233784747 hits 3: 0.582679971489665 hits 10: 0.6685673556664291, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.5443651119607343 mrr: 1574.778866714184 hits 1: 0.4768353528153956 hits 3: 0.5817890235210263 hits 10: 0.6667854597291518, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_500_1_f_ConvE_-y.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_500_1_f_ConvE_-y.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 1302.0607210626185 mrr: 0.6446772374635855 hits 1: 0.5673624288425048 hits 3: 0.7096774193548387 hits 10: 0.7533206831119544, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.6121902589054132 mrr: 1170.5967741935483 hits 1: 0.5123339658444023 hits 3: 0.6925996204933587 hits 10: 0.7618595825426945, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_1000_1_f_ConvE_-A.pkl.
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_1000_1_f_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 1248.1309297912715 mrr: 0.6220088007382821 hits 1: 0.5445920303605313 hits 3: 0.6793168880455408 hits 10: 0.7495256166982922, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.6052802100636901 mrr: 1271.319734345351 hits 1: 0.50853889943074 hits 3: 0.6783681214421252 hits 10: 0.7523719165085389, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 1153.0679933665008 mrr: 0.45889139336559326 hits 1: 0.38971807628524047 hits 3: 0.5 hits 10: 0.587893864013267, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.4825262758498842 mrr: 1113.396351575456 hits 1: 0.41500829187396354 hits 3: 0.5223880597014925 hits 10: 0.6024046434494196, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'low_memory': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_r_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Exception occurred for parameters:{'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'low_memory': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+ERROR - __init__() got an unexpected keyword argument 'low_memory'
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - mr: 1410.4195688225539 mrr: 0.2811430556210495 hits 1: 0.19071310116086235 hits 3: 0.3416252072968491 hits 10: 0.4187396351575456, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Best model test results: mr: 0.2892844126072725 mrr: 1480.6757877280265 hits 1: 0.20978441127694858 hits 3: 0.33499170812603646 hits 10: 0.42412935323383083, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_r_ComplEx_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 2174.672661870504 mrr: 0.47342849300437273 hits 1: 0.40680183126226294 hits 3: 0.5049051667756703 hits 10: 0.6020274689339438, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.4872871019472322 mrr: 2151.2895210070296 hits 1: 0.4191597188164133 hits 3: 0.5231322543730587 hits 10: 0.6141899623998692, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_500_1_f_r_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - mr: 2577.0781556572924 mrr: 0.1907199754540362 hits 1: 0.1144538914323087 hits 3: 0.23969914977109222 hits 10: 0.3263570961412688, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Best model test results: mr: 0.19947375792317457 mrr: 2496.6815432401504 hits 1: 0.12571521987902567 hits 3: 0.24162170998855648 hits 10: 0.32548634951773747, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_500_1_f_r_ComplEx_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - mr: 3498.820224719101 mrr: 0.2699062097116363 hits 1: 0.20973782771535582 hits 3: 0.30711610486891383 hits 10: 0.35580524344569286, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Best model test results: mr: 0.3004940369621728 mrr: 3307.4644194756556 hits 1: 0.24157303370786518 hits 3: 0.33707865168539325 hits 10: 0.3792134831460674, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_1000_1_f_r_ComplEx_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+ERROR - Exception occurred for parameters:{'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+ERROR - Exception occurred for parameters:{'batches_count': 128, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 645.625468164794 mrr: 0.5951875516926949 hits 1: 0.49625468164794007 hits 3: 0.6573033707865169 hits 10: 0.7715355805243446, model: ConvE, params: {'batches_count': 64, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.5881523326233412 mrr: 807.0140449438202 hits 1: 0.48408239700374533 hits 3: 0.6573033707865169 hits 10: 0.7528089887640449, model: ConvE, params: {'batches_count': 64, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_1000_1_f_r_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 394.23827046918126 mrr: 0.4900357910939647 hits 1: 0.41214351425942963 hits 3: 0.5289788408463661 hits 10: 0.6264949402023919, model: ConvE, params: {'batches_count': 64, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.48621998812992373 mrr: 362.35004599816006 hits 1: 0.40662373505059796 hits 3: 0.5280588776448942 hits 10: 0.6320147194112236, model: ConvE, params: {'batches_count': 64, 'seed': 0, 'epochs': 500, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_1000_1_f_r_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - mr: 1059.6218951241951 mrr: 0.3179026838738725 hits 1: 0.20975160993560257 hits 3: 0.40018399264029436 hits 10: 0.48942042318307266, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Best model test results: mr: 0.3404408026606484 mrr: 837.707451701932 hits 1: 0.22585096596136153 hits 3: 0.4273229070837167 hits 10: 0.5179392824287029, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_ComplEx_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - mr: 1549.6101211689238 mrr: 0.28301271706789544 hits 1: 0.2052744119743407 hits 3: 0.3082679971489665 hits 10: 0.4390591589451176, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Best model test results: mr: 0.28557927782795134 mrr: 1352.556307911618 hits 1: 0.2040270848182466 hits 3: 0.31593014967925875 hits 10: 0.4488595866001426, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_500_1_f_ComplEx_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - mr: 2211.2296015180264 mrr: 0.43587465154801364 hits 1: 0.3700189753320683 hits 3: 0.47248576850094876 hits 10: 0.540796963946869, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Best model test results: mr: 0.4189825954053774 mrr: 2045.2827324478178 hits 1: 0.33301707779886147 hits 3: 0.47438330170777987 hits 10: 0.5436432637571158, model: ComplEx, params: {'batches_count': 2000, 'seed': 0, 'epochs': 500, 'k': 200, 'regularizer': None, 'regularizer_params': {}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'eta': 2, 'loss': 'multiclass_nll', 'loss_params': {}, 'embedding_model_params': {'negative_corruption_entities': 'all'}}
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_1000_1_f_ComplEx_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_1_f_r_ConvE_-A.pkl.
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_1_f_r_ConvE_-Andrea.pkl.
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_1_f_r_ConvE_-Andrea.pkl.
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_r_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_r_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_r_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_cup_200_2_f_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 6753.036827195468 mrr: 0.14508738324192894 hits 1: 0.10269121813031161 hits 3: 0.16288951841359772 hits 10: 0.2220254957507082, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 400, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.14742374447854545 mrr: 6669.997948016416 hits 1: 0.10499316005471956 hits 3: 0.16450068399452805 hits 10: 0.2243502051983584, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 400, 'k': 150, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - mr: 8253.10021246459 mrr: 0.20135985678669518 hits 1: 0.15191218130311615 hits 3: 0.21777620396600567 hits 10: 0.2963881019830028, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 400, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Best model test results: mr: 0.20910892465453118 mrr: 8390.962722298222 hits 1: 0.15800273597811218 hits 3: 0.2270861833105335 hits 10: 0.30950752393980846, model: ConvE, params: {'batches_count': 128, 'seed': 0, 'epochs': 400, 'k': 200, 'regularizer': 'LP', 'regularizer_params': {'p': 2, 'lambda': 0.0001}, 'optimizer': 'adam', 'optimizer_params': {'lr': 0.0001}, 'verbose': True, 'loss': 'bce', 'loss_params': {'label_smoothing': 0.1}}
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_WN18_ConvE_-Andrea.pkl.
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_WN18_ConvE_-Andrea.pkl.
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_WN18_ConvE_-Andrea.pkl.
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_WN18_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - Will load model /home/modal/ANDREA/data/best_model/best_model_WN18_ConvE_-Andrea.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+ERROR - Unsupported regularizer: None
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Generating one-hot outputs for test [filtered: True, unique_pairs: False]
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+ERROR - Loss is nan. Please change the hyperparameters.
+INFO - 
+--------- Loss ---------
+INFO - Name : bce
+INFO - eta : 2
+INFO - label_smoothing : 0.1
+INFO - label_weighting : False
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.001
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False

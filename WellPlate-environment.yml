@@ -1,0 +1,24 @@
+name: multiwell-env
+channels:
+  - defaults
+dependencies:
+  - pathlib
+  - "pip>=19.3"
+  - "python>=3.9" 
+  - pandas 
+  - jupyter 
+  - seaborn 
+  - matplotlib
+  - "scikit-learn>0.20.2"
+  - scikit-image
+  - numpy
+  - pep8
+  - pylint
+# - "xlrd>=1.0.0"
+  - openpyxl
+  - pillow
+  - pip:
+      - opencv-contrib-python-headless>=4.4"
+      - xgboost
+      - "pandas>=1.2.0" 
+      - -e .
